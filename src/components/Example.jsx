@@ -45,7 +45,7 @@ const Example = () => {
           <tr>
             <th>Name</th>
             <th>Email</th>
-            <th>File</th>
+            <th> IMAGES  </th>
           </tr>
         </thead>
         <tbody>
