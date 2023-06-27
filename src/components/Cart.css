@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.article{
+    width: 60;
+    margin: auto;
+}
+
+.cart-box image{
+    width: 50px;
+    height: 50px;
+}
+
+.cart-image{
+    display: flex;
+    width: 400px;
+    font: bold;
+}
+
+
+
+.cart-image p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.cart-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+}
+
+.cart-box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.cart-box div:nth-child(3) button{
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+    background-color: skyblue;
+    cursor: pointer;
+margin-right: 50px;
+
+}
+.cart-box div:nth-child(3) span{
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+margin-right: 50px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total span:nth-child(1){
+    font-weight: bold;
+    color: green;
+    font-size: 2rem;
+}
+
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+margin-right: 180px;
+
+}
+
+.chckout{
+    font-weight: bold;
+  font-size: 1.7rem;
+ color: chartreuse;
+ word-spacing: 20px;
+ margin-left: 20px;
+ border: none;
+ outline: none;
+}
+
+.pname{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+.emptycart{
+    font-size: 2rem;
+    color:crimson;
+}
